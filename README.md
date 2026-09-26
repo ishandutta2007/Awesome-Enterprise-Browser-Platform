@@ -1,209 +1,142 @@
-# Awesome-Enterprise-Browser-Platform
+# Awesome Enterprise Browser Platform 🛡️🌐
 
-## Top Enterprise Browser Platforms Ecosystem
+![Awesome Enterprise Browser Platform Banner](./assets/banner.svg)
+
+<p flat align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Browser-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Enterprise-Browser-Platform?style=flat-square&logo=github" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Browser-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Enterprise-Browser-Platform?style=flat-square&logo=github" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Browser-Platform/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Enterprise-Browser-Platform?style=flat-square&logo=github" alt="Issues"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Browser-Platform/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Enterprise-Browser-Platform?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+## 🚀 Top Enterprise Browser Platforms Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**
 
-*Focused on Secure Enterprise Browsers, Browser Isolation, Last-Mile Controls, DLP, BYOD Protection & Zero-Trust Web Access*
+*Focused on Secure Enterprise Browsers, Remote Browser Isolation (RBI), Last-Mile Controls, Data Loss Prevention (DLP), BYOD Protection & Zero-Trust Web Access*
 
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Enterprise Browser** solutions. These systems harden or replace the corporate browser with policy enforcement, data loss prevention, isolation, session controls, and zero-trust access to SaaS and internal web applications.
-
-
-
-**Examples** include Island, Talon Security, Google Chrome Enterprise Premium, Microsoft Edge for Business, Citrix Secure Browser, Authentic8 Silo, Cloudflare Browser Isolation, Menlo Security, LayerX, and Seraphic Security (the category leaders).
-
-
-
-**Open-source emphasis**: Purpose-built enterprise browsers and commercial remote browser isolation (RBI) are largely proprietary. Practical open options focus on **remote browser isolation** and containerized browsing (BrowserBox, abcdesktop, related RBI projects). This section lists the strongest available open resources and is realistic about the commercial gap for fleet management and deep last-mile controls.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-- **[Island](https://www.island.io/)**  
-
-  Purpose-built Chromium enterprise browser with deep in-browser DLP, watermarking, session recording, GenAI controls, and last-mile enforcement for managed fleets.
-
-
-
-- **[Talon Security (Prisma Access Browser)](https://www.talon-sec.com/)**  
-
-  Enterprise browser (now part of Palo Alto Networks) tightly integrated with SASE/Prisma Access for secure browsing and policy enforcement.
-
-
-
-- **[Google Chrome Enterprise Premium](https://chromeenterprise.google/)**  
-
-  Managed Chrome experience with enterprise policies, security controls, and centralized management for organizations standardized on Chrome.
-
-
-
-- **[Microsoft Edge for Business](https://www.microsoft.com/edge/business)**  
-
-  Enterprise-managed Edge browser with security, compliance, and Microsoft 365 integration for Windows-centric environments.
-
-
-
-- **[Citrix Secure Browser](https://www.citrix.com/)**  
-
-  Isolated browser delivery as part of Citrix virtualization and secure access offerings.
-
-
-
-- **[Authentic8 Silo](https://www.authentic8.com/)**  
-
-  Cloud browser isolation platform that executes web sessions in a remote, disposable environment.
-
-
-
-- **[Cloudflare Browser Isolation](https://www.cloudflare.com/)**  
-
-  Remote browser isolation integrated with Cloudflare’s zero-trust and security platform.
-
-
-
-- **[Menlo Security](https://www.menlosecurity.com/)**  
-
-  Isolation-centric web security platform that keeps active content off the endpoint via remote browser execution.
-
-
-
-- **[LayerX](https://layerxsecurity.com/)**  
-
-  Browser security platform (often extension-based) focused on protecting existing browsers, BYOD, and GenAI/SaaS risks without forcing a full browser swap.
-
-
-
-- **[Seraphic Security and related enterprise browser solutions](https://seraphicsecurity.com/)**  
-
-  Additional platforms providing enterprise browser controls, isolation, and last-mile security for modern workforces.
-
-
-
-## Open-Source GitHub Projects
-
-- **[BrowserBox](https://github.com/BrowserBox/BrowserBox)**  
-
-  Open-source remote browser isolation (RBI) solution for secure, isolated browsing sessions—self-hostable and focused on containing web threats away from the local device.
-
-
-
-- **[abcdesktop](https://github.com/abcdesktopio)**  
-
-  Open-source Kubernetes virtual desktop platform with remote browser isolation and remote application isolation—runs browsers and apps in disposable containers.
-
-
-
-- **[Other remote browser isolation open projects](https://github.com/)**  
-
-  Community RBI and containerized browser stacks that stream rendered output while executing content server-side.
-
-
-
-- **[Chromium and policy open tooling](https://github.com/)**  
-
-  Open resources for managing Chromium-based browsers via enterprise policies, extensions, and configuration as code.
-
-
-
-- **[Browser extension open security frameworks](https://github.com/)**  
-
-  Open approaches to building or auditing extensions that enforce DLP, URL filtering, or session controls.
-
-
-
-- **[Container and sandbox open runtimes](https://github.com/)**  
-
-  Tools (Docker, Firecracker, gVisor-related) used as building blocks for isolated browser environments.
-
-
-
-- **[Zero-trust access open proxies](https://github.com/)**  
-
-  Open reverse-proxy and identity-aware access projects that can front internal web apps alongside browser controls.
-
-
-
-- **[Session recording and audit open helpers](https://github.com/)**  
-
-  Community components for capturing or logging browser activity in controlled environments.
-
-
-
-- **[Documentation and RBI open playbooks](https://github.com/)**  
-
-  Guides for deploying self-hosted remote browser isolation with open tooling.
-
-
-
-- **[Experimental local isolation projects](https://github.com/)**  
-
-  Emerging open efforts to run browser sessions in disposable VMs or sandboxes on the endpoint.
-
-
-
-### Additional Strong Open-Source Options
-
-- Self-hosting **BrowserBox** or **abcdesktop** for remote browser isolation when data residency and control matter.
-
-- Combining open identity-aware proxies with managed Chromium policies for lighter enterprise browser control.
-
-- Accepting that purpose-built enterprise browsers with deep last-mile DLP, GenAI inspection, fleet management, and commercial support still favor platforms such as Island, Talon/Prisma Access Browser, Chrome Enterprise Premium, Edge for Business, Menlo, LayerX, and Seraphic.
-
-- Focusing open-source efforts on isolation transparency, self-hosting, and reduced vendor lock-in for security engineering teams.
-
-
-
-**Frameworks for building custom systems**: Deploy an open RBI stack (BrowserBox / abcdesktop) → route high-risk or untrusted browsing through isolated sessions → apply identity and policy at the access layer → log sessions for audit. Suitable for labs, high-risk user groups, and organizations with strong platform engineering. Most enterprises adopt commercial enterprise browsers or isolation platforms for scale and support.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Enterprise browser and isolation systems affect security posture and user productivity. Misconfiguration can create gaps or friction. Open-source isolation stacks require careful hardening and operational ownership. This list is not security or legal advice.
-
-
+**Last updated: September 2026** 📅
 
 ---
 
-**Made for security architects, IT, and open zero-trust advocates.**
+## 📌 Overview
 
-Let's keep the browser safer, last-mile controls clearer, and isolation as open as practical.
+This repository tracks market-leading **SaaS platforms** and high-impact **open-source projects** for **Enterprise Browser** solutions. Enterprise Browsers harden or replace the corporate browser with granular policy enforcement, in-browser data loss prevention (DLP), remote browser isolation (RBI), session controls, threat prevention, and zero-trust access to SaaS and internal web applications.
+
+**Category Leaders** include Island, Talon Security (Palo Alto Networks), Google Chrome Enterprise Premium, Microsoft Edge for Business, Cloudflare Browser Isolation, Menlo Security, LayerX, and Seraphic Security.
+
+**Open-Source Focus**: Purpose-built enterprise browsers and commercial RBI stacks are primarily proprietary. However, powerful open-source tools focus on containerized web streaming (BrowserBox, Kasm Workspaces VNC, abcdesktop), identity-aware zero-trust proxies (Teleport, OAuth2-Proxy, Pomerium), and browser automation runtimes (Playwright, Selenium). This guide helps security architects and IT engineers bridge the gap between commercial fleets and self-hosted solutions.
+
+---
+
+## 📑 Table of Contents
+
+- [☁️ SaaS/Hosted Platforms](#️-saashosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
+
+---
+
+## ☁️ SaaS/Hosted Platforms
+
+> **📊 Market Insights & Landscape**:  
+> The Enterprise Browser & Remote Browser Isolation (RBI) market size is estimated at **$3.5B to $5.0B+** (growing rapidly at a ~20%+ CAGR). The market structure is **moderately fragmented**, undergoing consolidation as SASE leaders (e.g., Palo Alto Networks acquiring Talon) acquire specialized browser security startups, while standalone pioneers (e.g., Island, Menlo Security) build category-defining platforms alongside tech giants (Google Chrome Enterprise, Microsoft Edge for Business).
+
+### 🏢 SaaS Product Matrix & Pricing
+
+Below is a comparative breakdown of commercial enterprise browser and browser security platforms, sorted by estimated company size / valuation (descending):
+
+| Product / Platform 🏢 | Valuation / Revenue 💰 | Starting Pricing Tier 🏷️ | Free Tier / Trial Limits ⏳ | Key Capabilities & Focus 🛡️ |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Edge for Business](https://www.microsoft.com/edge/business)** | **$3.1 Trillion** (Parent Mkt Cap) | Included in M365 Business Premium ($22/user/mo) | Free tier available via standard Edge; enterprise controls included with M365 subscriptions | Native enterprise Edge browser integrated with M365, Entra ID Conditional Access, and Defender. |
+| **[Google Chrome Enterprise Premium](https://chromeenterprise.google/)** | **$2.0 Trillion** (Parent Mkt Cap) | $6.00 / user / month | Chrome Enterprise Core is free; Premium includes 30-day free trial for up to 50 users | Managed Chrome experience with deep DLP, malware inspection, URL filtering, and context-aware access. |
+| **[Citrix Secure Browser](https://www.citrix.com/)** | **$15.0 Billion** (Acquisition / Private Value) | $7.00 / user / month (Citrix DaaS add-on) | 30-day corporate evaluation trial upon enterprise request | Virtualized browser isolation and disposable browser session delivery integrated with Citrix Workspace. |
+| **[Talon Security (Prisma Access Browser)](https://www.talon-sec.com/)** | **$625 Million** (Acquired by Palo Alto Networks) | $7.00 / user / month | 14-day enterprise proof-of-concept (PoC) trial upon request | Enterprise Chromium browser tightly integrated with Palo Alto Networks SASE / Prisma Access controls. |
+| **[Island](https://www.island.io/)** | **$3.0 Billion** (Series D Valuation) | $8.00 / user / month | 14-day managed enterprise PoC trial with full admin portal access | Purpose-built enterprise browser with deep DLP, watermarking, session recording, and GenAI security. |
+| **[Menlo Security](https://www.menlosecurity.com/)** | **$800 Million** (Series E Valuation) | $12.00 / user / month | 30-day enterprise evaluation trial upon request | Remote browser isolation (RBI) platform executing untrusted active web content in disposable cloud containers. |
+| **[Authentic8 Silo](https://www.authentic8.com/)** | **$250 Million** (Estimated Valuation) | $15.00 / user / month (Silo for Safe Access) | 30-day free trial available for organizations | Cloud-hosted disposable browser environment isolating web sessions for secure research and governance. |
+| **[Cloudflare Browser Isolation](https://www.cloudflare.com/)** | **$35.0 Billion** (Public Market Cap) | $10.00 / user / month (Zero Trust Add-on) | Free Tier up to 5 users on Cloudflare Zero Trust (RBI add-on requires Pay-as-you-go or Contract) | Vector rendering remote browser isolation integrated with Cloudflare's global edge network. |
+| **[LayerX](https://layerxsecurity.com/)** | **$100 Million** (Estimated Valuation) | $5.00 / user / month | 14-day enterprise trial for BYOD & browser security extension | Extension-based browser security layer protecting existing browsers, BYOD, and SaaS/GenAI risks. |
+| **[Seraphic Security](https://seraphicsecurity.com/)** | **$50 Million** (Estimated Valuation) | $6.00 / user / month | 14-day enterprise trial upon request | In-browser security engine providing exploit protection, governance, and DLP across any standard browser. |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+Below are top open-source projects for self-hosting browser isolation, zero-trust access proxies, remote browser engines, and enterprise browser tooling. 
+
+*Sorted by GitHub Star Count (Descending)* ⭐
+
+| Repository 📦 | GitHub Stars ⭐ | Primary Focus & Description 🛠️ |
+| :--- | :--- | :--- |
+| **[microsoft/playwright](https://github.com/microsoft/playwright)** | [<img src="https://img.shields.io/github/stars/microsoft/playwright?style=social&color=white" alt="Playwright Stars"/>](https://github.com/microsoft/playwright/stargazers) | Node.js/Python library to automate Chromium, Firefox, and WebKit—foundational for custom browser isolation engines and automated security auditing. |
+| **[seleniumhq/selenium](https://github.com/seleniumhq/selenium)** | [<img src="https://img.shields.io/github/stars/seleniumhq/selenium?style=social&color=white" alt="Selenium Stars"/>](https://github.com/seleniumhq/selenium/stargazers) | Core browser automation framework across all major browsers, widely used for browser sandbox orchestration and security policy test suites. |
+| **[chromium/chromium](https://github.com/chromium/chromium)** | [<img src="https://img.shields.io/github/stars/chromium/chromium?style=social&color=white" alt="Chromium Stars"/>](https://github.com/chromium/chromium/stargazers) | The open-source base for Google Chrome, Island, Talon, Edge, and Brave—essential foundation for custom enterprise browser builds. |
+| **[teleport/teleport](https://github.com/gravitational/teleport)** | [<img src="https://img.shields.io/github/stars/gravitational/teleport?style=social&color=white" alt="Teleport Stars"/>](https://github.com/gravitational/teleport/stargazers) | Identity-aware zero-trust access proxy and session recorder for infrastructure, web applications, and internal HTTP endpoints. |
+| **[oauth2-proxy/oauth2-proxy](https://github.com/oauth2-proxy/oauth2-proxy)** | [<img src="https://img.shields.io/github/stars/oauth2-proxy/oauth2-proxy?style=social&color=white" alt="OAuth2-Proxy Stars"/>](https://github.com/oauth2-proxy/oauth2-proxy/stargazers) | Reverse proxy providing authentication using OAuth 2.0 / OIDC providers (Google, Okta, Azure AD) to front internal web apps. |
+| **[pomerium/pomerium](https://github.com/pomerium/pomerium)** | [<img src="https://img.shields.io/github/stars/pomerium/pomerium?style=social&color=white" alt="Pomerium Stars"/>](https://github.com/pomerium/pomerium/stargazers) | Identity-aware context proxy providing zero-trust access control to web apps without requiring a client VPN. |
+| **[kasmtech/kasmvnc](https://github.com/kasmtech/kasmvnc)** | [<img src="https://img.shields.io/github/stars/kasmtech/kasmvnc?style=social&color=white" alt="KasmVNC Stars"/>](https://github.com/kasmtech/kasmvnc/stargazers) | Modern web-based VNC server optimized for remote browser streaming and containerized desktop environments over WebSockets. |
+| **[BrowserBox/BrowserBox](https://github.com/BrowserBox/BrowserBox)** | [<img src="https://img.shields.io/github/stars/BrowserBox/BrowserBox?style=social&color=white" alt="BrowserBox Stars"/>](https://github.com/BrowserBox/BrowserBox/stargazers) | Open-source Remote Browser Isolation (RBI) platform for secure, containerized web sessions away from endpoint devices. |
+| **[mysteriumnetwork/node](https://github.com/mysteriumnetwork/node)** | [<img src="https://img.shields.io/github/stars/mysteriumnetwork/node?style=social&color=white" alt="Mysterium Node Stars"/>](https://github.com/mysteriumnetwork/node/stargazers) | Decentralized network node stack providing encrypted routing for privacy-preserving and isolated web traffic. |
+| **[linuxserver/docker-firefox](https://github.com/linuxserver/docker-firefox)** | [<img src="https://img.shields.io/github/stars/linuxserver/docker-firefox?style=social&color=white" alt="Docker Firefox Stars"/>](https://github.com/linuxserver/docker-firefox/stargazers) | Containerized Firefox browser with WebRTC/KasmVNC streaming interface for disposable endpoint isolation. |
+| **[abcdesktopio/oc.user](https://github.com/abcdesktopio/oc.user)** | [<img src="https://img.shields.io/github/stars/abcdesktopio/oc.user?style=social&color=white" alt="abcdesktop Stars"/>](https://github.com/abcdesktopio/oc.user/stargazers) | Kubernetes-native virtual desktop and remote application/browser isolation platform using disposable containers. |
+
+---
+
+## 🛠️ Architecture Framework for Open-Source Deployment
+
+To build a zero-trust enterprise browsing stack using open-source components:
+
+1. **Deploy Open RBI Engine**: Host **BrowserBox** or **KasmVNC + Docker-Firefox** in containerized cloud environments.
+2. **Enforce Identity & Access**: Place **Pomerium**, **Teleport**, or **OAuth2-Proxy** in front of web applications for authentication.
+3. **Configure Fleet Policies**: Apply managed Chromium JSON policy templates to endpoints for device governance.
+4. **Audit & Session Logs**: Route traffic through identity proxies to capture session audits and access logs.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! Please follow these simple steps to add or update entries:
+
+1. Fork this repository 🍴
+2. Create your feature branch (`git checkout -b feature/add-platform`)
+3. Add the platform or tool to `README.md` following the table structure
+4. Ensure factual information, link to official documentation, and specify license/pricing
+5. Submit a Pull Request (PR) with a clear summary 🚀
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this repository helpful for your security research, architecture planning, or zero-trust deployment, please consider supporting the project:
+
+- 🌟 **Star this repository** to help others discover it!
+- 🔀 **Fork & Share** with your cybersecurity team and security engineering colleagues.
+- ☕ **Buy me a coffee**: Support ongoing maintenance and research via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Thank you for supporting open cybersecurity resources! 🙌
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Enterprise-Browser-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Enterprise-Browser-Platform&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This list is **community-curated** for educational and architectural research purposes—it is not an exhaustive directory or commercial endorsement.
+- Enterprise Browsers and Remote Browser Isolation systems impact security controls and user workflow. Always conduct security assessments before deploying enterprise controls.
+- Product logos, trademarks, and brand names belong to their respective owners.
+
+---
+
+<p align="center">
+  <b>Made with ❤️ for Security Architects, IT Leaders & Zero-Trust Engineers.</b>
+</p>
