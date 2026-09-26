@@ -70,9 +70,9 @@ Below is a comparative breakdown of commercial enterprise browser and browser se
 
 Below are top open-source projects for self-hosting browser isolation, zero-trust access proxies, remote browser engines, and enterprise browser tooling. 
 
-*Sorted by GitHub Star Count (Descending)* ⭐
+*Sorted by GitHub Stars_Count (Descending)* ⭐
 
-| Repository 📦 | GitHub Stars ⭐ | Primary Focus & Description 🛠️ |
+| Repository 📦 | GitHub_Stars ⭐ | Primary Focus & Description 🛠️ |
 | :--- | :--- | :--- |
 | **[microsoft/playwright](https://github.com/microsoft/playwright)** | [<img src="https://img.shields.io/github/stars/microsoft/playwright?style=social&color=white" alt="Playwright Stars"/>](https://github.com/microsoft/playwright/stargazers) | Node.js/Python library to automate Chromium, Firefox, and WebKit—foundational for custom browser isolation engines and automated security auditing. |
 | **[seleniumhq/selenium](https://github.com/seleniumhq/selenium)** | [<img src="https://img.shields.io/github/stars/seleniumhq/selenium?style=social&color=white" alt="Selenium Stars"/>](https://github.com/seleniumhq/selenium/stargazers) | Core browser automation framework across all major browsers, widely used for browser sandbox orchestration and security policy test suites. |
